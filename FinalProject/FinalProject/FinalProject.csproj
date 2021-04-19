@@ -154,5 +154,6 @@
 
   <ItemGroup>
     <Folder Include="Documentation\" />
+    <Folder Include="Testing\" />
   </ItemGroup>
 </Project>
