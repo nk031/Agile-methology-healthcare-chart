@@ -6,17 +6,18 @@ using System.Collections.Generic;
 
 namespace FinalProject
 {
+    //added class for book an apponitment
     public class Appointment
     {
         [PrimaryKey, AutoIncrement, NotNull]
-        public int Id
+        public int Id//primary key for class
         {
             get;
             set;
         }
 
         [NotNull]
-        public DateTime aptDate
+        public DateTime aptDate//used datetime variable
         {
             get;
             set;
@@ -29,18 +30,18 @@ namespace FinalProject
             get;
             set;
         }
-        public string followUpAdvice
+        public string followUpAdvice //advice from doctor
         {
             get;
             set;
         }
-        public string reasonForVisit
+        public string reasonForVisit//reason for visit to doctor
         {
             get;
             set;
         }
 
-        public string dName
+        public string dName// add your doctor name
         {
             get;
             set;
@@ -66,13 +67,13 @@ namespace FinalProject
             set;
         }
         [OneToMany]
-        public List<Vaccine> Vaccines
+        public List<Vaccine> Vaccines //give vaccines if needed
         {
             get;
             set;
         }
         [OneToMany]
-        public List<Prescription> Prescriptions
+        public List<Prescription> Prescriptions// any prescription for patient
         {
             get;
             set;

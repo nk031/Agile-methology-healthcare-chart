@@ -6,6 +6,7 @@ using System.Text;
 
 namespace FinalProject.Tables
 {
+    //class for add folder any new folder
     public class Folders : NoteFolder
     {
         public bool isRoot

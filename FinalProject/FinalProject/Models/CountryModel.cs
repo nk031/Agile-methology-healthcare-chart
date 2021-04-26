@@ -2,9 +2,9 @@
 
 namespace FinalProject.Models
 {
-
+    //created class for add region 
     [Preserve(AllMembers = true)]
-    public class CountryModel
+    public class CountryModel //primary key
     {
         #region Properties
 

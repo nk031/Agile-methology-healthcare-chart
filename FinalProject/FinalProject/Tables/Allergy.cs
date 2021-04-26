@@ -6,7 +6,7 @@ namespace FinalProject.Tables
 {
     public class Allergy
     {
-        [PrimaryKey, NotNull]
+        [PrimaryKey, NotNull]//primary key 
         public string Type
         {
             get;
